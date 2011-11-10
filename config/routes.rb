@@ -1,4 +1,14 @@
 Skillstore::Application.routes.draw do
+  get "pages/naslovna"
+
+  get "pages/aktuelnosti"
+
+  get "pages/skola"
+
+  get "pages/magazin"
+
+  get "pages/kontakt"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
