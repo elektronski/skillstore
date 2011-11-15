@@ -15,7 +15,7 @@ describe PagesController do
     
     it "should have the right title" do
       get 'naslovna'
-      response.should have_selector("title", :content => @base_title + " | Naslovna")
+      response.should have_selector("title", :content => "SkillStore | Naslovna")
     end
   end
 

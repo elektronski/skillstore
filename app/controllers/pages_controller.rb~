@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   end
 
   def skola
-    @title= "Ski skola"
+    @title= "Skola"
   end
 
   def magazin
