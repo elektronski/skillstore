@@ -5,7 +5,6 @@ Skillstore::Application.routes.draw do
   match '/magazin',     :to => 'pages#magazin'
   match '/kontakt',     :to => 'pages#kontakt'
 
-  root :to => 'pages#naslovna'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
